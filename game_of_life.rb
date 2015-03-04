@@ -81,40 +81,7 @@ play_game
   sleep 0.5
 end
 
-# 07. Apply Rules of Conways game of life - Part 2
-#   Create new matrix with rules applied, display it and iterate it for 10 times
-#   Rules:
-#     Any live cell with fewer than two live neighbours dies, as if caused by under-population.
-#     Any live cell with two or three live neighbours lives on to the next generation.
-#     Any live cell with more than three live neighbours dies, as if by overcrowding.
-#     Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
-
-# Extra 01. Use n iterations
-# Extra 02. Fix menus and presentation
-# Extra 03. Let user decide what percentage of board to fill with '0' at the beginning.
-# Extra 04. Move classes to files of their own
-
-# @cell_board = [["", "", "", "", "", "", "", "", "", ""],
-#                ["", "", "", "", "", "", "", "", "", ""],
-#                ["", "", "", "", "0", "", "", "", "", ""],
-#                ["", "", "", "0", "", "0", "", "", "", ""],
-#                ["", "", "0", "", "0", "", "0", "", "", ""],
-#                ["", "", "", "0", "", "0", "", "", "", ""],
-#                ["", "", "", "", "0", "", "", "", "", ""],
-#                ["", "", "", "", "", "", "", "", "", ""],
-#                ["", "", "", "", "", "", "", "", "", ""],
-#                ["", "", "", "", "", "", "", "", "", ""]
-#               ]
-
-
-# puts "Do You Wants a New Random Matrix? (y) yes or (n) no"
-# start_game = gets.chomp.downcase
-#   if start_game == "y"
-#     @cell_board.each {|row| puts row.map { |col| col}.join(' ')}
-#   else 
-#     puts "Maybe Some Other Time"
-#   end
 
 
 
